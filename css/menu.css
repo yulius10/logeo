@@ -1,0 +1,22 @@
+ul,li{
+	list-style: none;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	background:#EEE;
+	border: 1px black solid;
+}
+.menu{
+	width: 100px;
+	background: #EEE;
+	border: 1px black solid;
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu li{
+	position: relative;
+}
